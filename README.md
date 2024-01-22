@@ -18,13 +18,15 @@ The GulpStart Package includes several dependencies to enhance your web developm
 
 - **browser-sync (^3.0.2)**: Automates the reloading of your web browser when files change. It's a powerful tool for testing your site across multiple devices and browsers in real-time.
 - **gulp (^4.0.2)**: A toolkit to automate & enhance your workflow. Gulp provides a streaming build system, making it easier and faster to build and test web applications.
-- **gulp-autoprefixer (^9.0.0)**: A CSS post-processor that parses your CSS and adds vendor prefixes to CSS rules using values from the Can I Use website. It ensures cross-browser compatibility of your styles.
 - **gulp-clean (^0.4.0)**: A plugin to remove files and folders as part of your Gulp build process. It's typically used to clean the output directory before building a new version of your website.
 - **gulp-concat (^2.6.1)**: Concatenates files into a single file. It's often used to combine multiple JavaScript or CSS files into one, reducing HTTP requests and improving load times.
 - **gulp-sass (^5.1.0)**: A Gulp plugin to compile Sass files into CSS. It leverages Sass, a powerful CSS pre-processor, to help write more maintainable and scalable stylesheets.
 - **gulp-uglify-es (^3.0.0)**: A JavaScript minifier based on the UglifyJS3 toolkit. This plugin reduces the size of your JavaScript files by removing unnecessary characters, making your website faster to load.
 - **sass (^1.70.0)**: A powerful and professional grade CSS extension language. Sass provides more advanced mechanisms for writing CSS, such as variables, nesting, and mixins, which makes maintaining CSS much more efficient.
-
+- **gulp-avif (^1.1.1)**: Converts images to AVIF format.
+- **gulp-imagemin (^7.1.0)**: Minimizes image files.
+- **gulp-newer (^1.4.0)**: Passes through only those source files that are newer than corresponding destination files.
+- **gulp-webp (^5.0.0)**: Converts images to WebP format.
 
 ## Installation
 To start using the GulpStart Package, clone the repository and install the required dependencies, if you accidentally deleted the `node_modules` folder, you can easily restore it by also running:
