@@ -10,6 +10,8 @@ The GulpStart Package is a convenient starter kit for web development projects t
 - **JavaScript Minification**: Includes JavaScript minification to decrease file sizes and improve website performance.
 - **Error Handling**: Incorporates error handling mechanisms to maintain smooth workflow during development.
 - **Browser Compatibility**: Focuses on ensuring compatibility across various browsers, essential for creating accessible web applications.
+- **SVG Processing**: Now includes support for optimizing SVG files and creating SVG sprites.
+- **Enhanced Image Handling**: Added support for AVIF and WebP formats for better image optimization.
 
 # Dependencies
 The GulpStart Package includes several dependencies to enhance your web development workflow. Below is a brief description of each plugin used in the package:
@@ -25,7 +27,7 @@ The GulpStart Package includes several dependencies to enhance your web developm
 
 
 ## Installation
-To start using the GulpStart Package, clone the repository and install the required dependencies:
+To start using the GulpStart Package, clone the repository and install the required dependencies, if you accidentally deleted the `node_modules` folder, you can easily restore it by also running:
 
 ```bash
 git clone https://github.com/Vzhukovskaya/GulpStart.package.git
