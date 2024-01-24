@@ -21,6 +21,24 @@ import ttf2woff2 from 'gulp-ttf2woff2';
 import svgSprite from 'gulp-svg-sprite';
 import gulpIf from 'gulp-if';
 import include from 'gulp-include';
+import eslint from 'gulp-eslint';
+import svgmin from 'gulp-svgmin';
+import postcss from 'gulp-postcss';
+import autoprefixer from 'autoprefixer';
+import cssnano from 'cssnano';
+
+function optimizeSVG() {
+    return src('app/images/src/*.svg')
+        .pipe(svgmin())
+        .pipe(dest('app/images/dist'));
+}
+
+function lintJS() {
+    return src('app/js/**/*.js')
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
+}
 
 function pages() {
     return src('app/pages/*.html')
@@ -85,11 +103,17 @@ function scripts() {
 
 // Функция для работы со стилями
 function styles() {
+    const plugins = [
+        autoprefixer(),
+        cssnano()
+    ];
+
     return src('app/scss/style.scss')
-        .pipe(scss({ outputStyle: 'compressed' }))
+        .pipe(scss({ outputStyle: 'expanded' }))
+        .pipe(postcss(plugins))
         .pipe(concat('style.min.css'))
         .pipe(dest('app/css'))
-        .pipe(browserSync.stream())
+        .pipe(browserSync.stream());
 }
 
 // Функция для отслеживания изменений
@@ -136,9 +160,11 @@ export {
     scripts,
     watching,
     cleanDist,
-    building
+    building,
+    lintJS,
+    optimizeSVG
 };
 
-export const build = series(cleanDist, fonts, building);
-export default parallel(styles, images, scripts, pages, watching);
+export const build = series(cleanDist, fonts, lintJS, optimizeSVG, building);
+export default parallel(styles, images, scripts, pages, watching, lintJS);
 

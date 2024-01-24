@@ -2,7 +2,7 @@
   "name": "gulpstart",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "type": "commonjs",
   "main": "gulpfile.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^3.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
     "gulp": "^4.0.2",
     "gulp-avif": "^1.1.1",
     "gulp-clean": "^0.4.0",
@@ -19,14 +21,20 @@
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-include": "^2.4.1",
+    "gulp-postcss": "^9.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-svg-sprite": "^2.0.3",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-uglify-es": "^3.0.0",
     "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.33",
     "sass": "^1.70.0"
   },
   "dependencies": {
-    "gulp-newer": "^1.4.0"
+    "autoprefixer": "^10.4.17",
+    "cssnano": "^6.0.3",
+    "gulp-eslint": "^6.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-svgmin": "^4.1.0"
   }
 }
