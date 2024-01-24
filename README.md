@@ -8,10 +8,12 @@ The GulpStart Package is a dynamic and efficient starter kit for web development
 - **Live Browser Reloading**: Integrates BrowserSync for real-time browser reloading, ensuring immediate feedback during development.
 - **Advanced Image Optimization**: Supports image optimization in formats like JPEG, PNG, WebP, and AVIF, reducing file sizes while maintaining visual quality.
 - **JavaScript Minification and Concatenation**: Minimizes and merges JavaScript files using gulp-uglify-es and gulp-concat, speeding up load times and improving performance.
+- **ESLint Integration**: Интеграция ESLint для поддержания качества JavaScript-кода.
 - **Efficient Error Handling**: Implements robust error handling to prevent workflow interruptions during development.
 - **Cross-Browser Compatibility**: Utilizes gulp-autoprefixer to ensure your CSS works seamlessly across different browsers.
 - **Font Conversion**: Converts font files into various web-friendly formats including WOFF and WOFF2 using gulp-fonter and gulp-ttf2woff2.
 - **SVG Sprite Generation**: Creates SVG sprites using gulp-svg-sprite, streamlining the management and usage of SVG graphics.
+- **SVG Optimization**: Оптимизация SVG-файлов с помощью gulp-svgmin.
 - **Modular File Inclusion**: Facilitates the inclusion of HTML and script components with gulp-include, enhancing code organization and reusability.
 
 # Dependencies
@@ -33,6 +35,11 @@ The GulpStart Package includes several dependencies to enhance your web developm
 - **gulp-ttf2woff2 (^4.0.1)**: Converts TTF fonts to WOFF2 format, offering high compression rates and fast loading times for web fonts.
 - **gulp-svg-sprite (^1.5.0)**: Creates SVG sprites, combining multiple SVG files into one to reduce HTTP requests and streamline icon management.
 - **gulp-include (^2.4.1)**: Allows files to be included within each other. This plugin is particularly useful for managing script and HTML partials.
+- **gulp-eslint (^6.0.0)**: A Gulp plugin for identifying and reporting on patterns found in ECMAScript/JavaScript code. It provides a pluggable linting utility for JavaScript, helping to enforce a consistent style by parsing code and describing patterns that don't adhere to defined coding guidelines.
+- **gulp-svgmin (^4.1.0** Minimizes SVG files, optimizing them for reduced size without compromising their quality. This plugin is crucial for web development as it reduces the load time by decreasing the size of SVG files used for icons or other graphical elements.
+- **gulp-postcss (^9.1.0)**: A tool to pipe CSS through several plugins, but parse CSS only once. It is a powerful system for transforming CSS with JavaScript, enabling the use of various plugins like autoprefixer and cssnano.
+- **autoprefixer (^10.4.17)**: A PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from the "Can I Use" database. It ensures that CSS rules work across different browsers, making the website more accessible.
+- **cssnano (^6.0.3)**: A modular minifier, built on top of the PostCSS ecosystem. It includes various optimizations that aim to reduce the size of your CSS files, ensuring faster page load times and potentially better website performance.
 
 ## Installation
 To start using the GulpStart Package, clone the repository and install the required dependencies:
