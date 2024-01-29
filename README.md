@@ -1,4 +1,4 @@
-# GulpStart Package 🚀
+# GulpStart Package 
 
 ## Overview
 The GulpStart Package is a dynamic and efficient starter kit for web development, leveraging Gulp to automate and streamline your workflow. Designed with modern web development practices in mind, this package offers a comprehensive toolkit that simplifies project initialization and management. It incorporates a variety of tasks such as CSS preprocessing, live reloading, image optimization, and more, making it an ideal choice for developers seeking a robust and scalable solution for their web projects.
