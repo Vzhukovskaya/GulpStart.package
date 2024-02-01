@@ -44,9 +44,9 @@ The GulpStart Package includes several dependencies to enhance your web developm
 ## Installation
 To start using the GulpStart Package, clone the repository and install the required dependencies:
 
-git clone https://github.com/Vzhukovskaya/GulpStart.package.git
-cd GulpStart.package
-npm install
+- git clone https://github.com/Vzhukovskaya/GulpStart.package.git
+- cd GulpStart.package
+- npm install
 
 Run the Gulp tasks with the following command:
 gulp
