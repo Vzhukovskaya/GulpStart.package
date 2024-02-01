@@ -5,7 +5,9 @@ The GulpStart Package is a dynamic and efficient starter kit for web development
 
 ## Features
 **Sass/SCSS Processing**: Converts Sass/SCSS files into optimized CSS, enhancing the efficiency and maintainability of your stylesheets.
+
 **Live Browser Reloading**: Integrates BrowserSync for real-time browser reloading, ensuring immediate feedback during development.
+
 **Advanced Image Optimization**: Supports image optimization in formats like JPEG, PNG, WebP, and AVIF, reducing file sizes while maintaining visual quality.
 **JavaScript Minification and Concatenation**: Minimizes and merges JavaScript files using gulp-uglify-es and gulp-concat, speeding up load times and improving performance.
 **ESLint Integration**: Интеграция ESLint для поддержания качества JavaScript-кода.
