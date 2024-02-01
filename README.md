@@ -4,17 +4,17 @@
 The GulpStart Package is a dynamic and efficient starter kit for web development, leveraging Gulp to automate and streamline your workflow. Designed with modern web development practices in mind, this package offers a comprehensive toolkit that simplifies project initialization and management. It incorporates a variety of tasks such as CSS preprocessing, live reloading, image optimization, and more, making it an ideal choice for developers seeking a robust and scalable solution for their web projects.
 
 ## Features
-**Sass/SCSS Processing**: Converts Sass/SCSS files into optimized CSS, enhancing the efficiency and maintainability of your stylesheets.  
-**Live Browser Reloading**: Integrates BrowserSync for real-time browser reloading, ensuring immediate feedback during development.  
-**Advanced Image Optimization**: Supports image optimization in formats like JPEG, PNG, WebP, and AVIF, reducing file sizes while maintaining visual quality.  
-**JavaScript Minification and Concatenation**: Minimizes and merges JavaScript files using gulp-uglify-es and gulp-concat, speeding up load times and improving performance.  
-**ESLint Integration**: Интеграция ESLint для поддержания качества JavaScript-кода.  
-**Efficient Error Handling**: Implements robust error handling to prevent workflow interruptions during development.  
-**Cross-Browser Compatibility**: Utilizes gulp-autoprefixer to ensure your CSS works seamlessly across different browsers.  
-**Font Conversion**: Converts font files into various web-friendly formats including WOFF and WOFF2 using gulp-fonter and gulp-ttf2woff2.  
-**SVG Sprite Generation**: Creates SVG sprites using gulp-svg-sprite, streamlining the management and usage of SVG graphics.  
-**SVG Optimization**: Оптимизация SVG-файлов с помощью gulp-svgmin.  
-**Modular File Inclusion**: Facilitates the inclusion of HTML and script components with gulp-include, enhancing code organization and reusability. 
+1.**Sass/SCSS Processing**: Converts Sass/SCSS files into optimized CSS, enhancing the efficiency and maintainability of your stylesheets.  
+2.**Live Browser Reloading**: Integrates BrowserSync for real-time browser reloading, ensuring immediate feedback during development.  
+3.**Advanced Image Optimization**: Supports image optimization in formats like JPEG, PNG, WebP, and AVIF, reducing file sizes while maintaining visual quality.  
+4.**JavaScript Minification and Concatenation**: Minimizes and merges JavaScript files using gulp-uglify-es and gulp-concat, speeding up load times and improving performance.  
+5.**ESLint Integration**: Интеграция ESLint для поддержания качества JavaScript-кода.  
+6.**Efficient Error Handling**: Implements robust error handling to prevent workflow interruptions during development.  
+7.**Cross-Browser Compatibility**: Utilizes gulp-autoprefixer to ensure your CSS works seamlessly across different browsers.  
+8.**Font Conversion**: Converts font files into various web-friendly formats including WOFF and WOFF2 using gulp-fonter and gulp-ttf2woff2.  
+9.**SVG Sprite Generation**: Creates SVG sprites using gulp-svg-sprite, streamlining the management and usage of SVG graphics.  
+10.**SVG Optimization**: Оптимизация SVG-файлов с помощью gulp-svgmin.  
+11.**Modular File Inclusion**: Facilitates the inclusion of HTML and script components with gulp-include, enhancing code organization and reusability. 
 
 # Dependencies
 The GulpStart Package includes several dependencies to enhance your web development workflow. Below is a brief description of each plugin used in the package:
